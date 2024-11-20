@@ -1,0 +1,70 @@
+.S2-Title{
+    font-family: "Roboto", sans-serif;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 67px;
+    text-align: center;
+    color: #ffffff;
+    margin-bottom: 120px;
+}
+.miniTitle{
+    width: 320px;
+    font-family: "Roboto", sans-serif;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 33px;
+    text-align: center;
+    color: #ffffff;
+    margin: 60px auto 30px;
+}
+.mini-Text{
+    width: 360px;
+    font-family: "Roboto", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 25px;
+    text-align: center;
+    color: #ffffff;
+    margin: auto auto 200px;
+}
+
+.Row{
+    margin: 0;
+}
+.msi__logo{
+    margin-bottom: 250px;
+}
+
+.logo__text{
+    display: flex;
+    align-items: center;
+    margin-bottom: 90px;
+}
+.ellipse__logo{
+    margin: auto 50px auto 300px;
+}
+.text{
+    font-family: "Roboto", sans-serif;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 68px;
+    text-align: left;
+    color: #ffffff;
+}
+
+.images1, .images2{
+    width: 1200px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin: 0 auto;
+}
+.line{
+    height: 150px;
+    border: 1px solid;
+}
+.center__line{
+    width: 1200px;
+    border: 1px solid;
+    margin: 0 auto;
+}

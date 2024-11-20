@@ -1,0 +1,39 @@
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.collapse{
+    flex-grow: 0;
+}
+.nav-link{
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: center;
+    color: #ffffff;
+}
+.nav-link:hover{
+    color: rgba(255, 255, 255, 0.9);
+}
+.nav-link:focus, .nav-link:hover {
+    color: white;
+}
+.navBtn{
+    width: 183px;
+    height: 44px;
+    padding: 10px 30px 10px 30px;
+    border: none;
+    border-radius: 50px;
+    background: linear-gradient(94.26deg, #C89AFC 9.51%, #7C6AFA 90.23%);
+}
+.navBtnLink{
+    font-family: "Roboto", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: center;
+    color: white;
+    text-decoration: none;
+}

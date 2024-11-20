@@ -1,0 +1,80 @@
+.F-title{
+    font-family: "Roboto", sans-serif;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 68px;
+    text-align: center;
+    color: #ffffff;
+}
+.F-text{
+    font-family: "Roboto", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 25px;
+    text-align: center;
+    color: grey;
+    margin: 30px auto 60px;
+    width: 400px;
+}
+.input__button{
+    display: flex;
+    align-items: center;
+    background-color: grey;
+    width: max-content;
+    border: none;
+    border-radius: 50px;
+    margin: 0 auto 40px;
+}
+.inp{
+    width: 350px;
+    height: 45px;
+    border: none;
+    border-radius: 50px 0 0 50px;
+    padding: 0 20px;
+    background-color: transparent;
+}
+.inp::placeholder{
+    color: #ffffff;
+}
+input:focus-visible{
+    display: none;
+}
+.F-button{
+    width: 160px;
+    height: 45px;
+    border: none;
+    border-radius: 50px;
+    background: linear-gradient(94.78deg, #DF5950 11.19%, #451046 93.72%);
+}
+.F-button-link{
+    font-family: "Roboto", sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 24px;
+    color: #ffffff;
+    text-decoration: none;
+}
+.centered{
+    display: flex;
+    justify-content: center;
+}
+.social{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    gap: 30px;
+}
+.social__icon{
+    width: 50px;
+    height: 50px;
+    border: none;
+    border-radius: 50px;
+    background: linear-gradient(94.26deg, #C89AFC 9.51%, #7C6AFA 90.23%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.social__icon:hover{
+    cursor: pointer;
+}
+

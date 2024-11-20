@@ -1,0 +1,112 @@
+.header__bg{
+    width: 100%;
+    height: 930px;
+    background-size: 100% 100%;
+    background-image: url("../img/main-screen__bgc.png");
+}
+.H-Title{
+    font-family: "Roboto", sans-serif;
+    font-size: 64px;
+    font-weight: 700;
+    line-height: 89.6px;
+    text-align: left;
+    color: white;
+    width: 900px;
+    margin: 240px 0 50px 300px;
+}
+.time{
+    width: 500px;
+    margin-left: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.mini-box{
+    width: 102px;
+    height: 112px;
+    padding: 20px 30px 20px 30px;
+    text-align: center;
+    background: #121212;
+}
+.time_number{
+    font-family: "Roboto", sans-serif;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 50.4px;
+    color: #ffffff;
+}
+.time_day{
+    font-family: "Roboto", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 2.4px;
+    color: gray;
+}
+
+/*.zakazat__kurs{*/
+/*    display: flex;*/
+/*    align-items: center;*/
+/*    justify-content: space-around;*/
+
+/*    background: #121212;*/
+/*    margin-top: 280px;*/
+/*    padding: 35px 0;*/
+/*}*/
+/*.zakazatBtn{*/
+/*    width: 169px;*/
+/*    height: 44px;*/
+/*    border: none;*/
+/*    border-radius: 50px;*/
+/*    background: linear-gradient(94.78deg, #DF5950 11.19%, #451046 93.72%);*/
+/*}*/
+/*.zakazatBtnLink{*/
+/*    font-family: "Roboto", sans-serif;*/
+/*    font-size: 16px;*/
+/*    font-weight: 700;*/
+/*    line-height: 24px;*/
+/*    color: white;*/
+/*    text-decoration: none;*/
+/*}*/
+/*.students__number{*/
+/*    display: flex;*/
+/*    align-items: center;*/
+/*    justify-content: space-between;*/
+
+/*    width: 260px;*/
+/*    margin: 0 auto;*/
+/*}*/
+/*.student, .std_num, .end__courses, .courses_num{*/
+/*    font-family: "Roboto", sans-serif;*/
+/*    font-size: 16px;*/
+/*    font-weight: 400;*/
+/*    line-height: 24px;*/
+/*    color: #ffffff;*/
+/*}*/
+/*.student, .end__courses, .w_text, .zero, .mln{*/
+/*    color: gray;*/
+/*}*/
+/*.work__text, .line__numbers{*/
+/*    display: flex;*/
+/*    align-items: center;*/
+/*    justify-content: space-between;*/
+/*}*/
+/*.price{*/
+/*    font-family: "Roboto", sans-serif;*/
+/*    font-size: 16px;*/
+/*    font-weight: 700;*/
+/*    line-height: 24px;*/
+/*    color: white;*/
+/*}*/
+/*.big__line{*/
+/*    width: 714px;*/
+/*    height: 6px;*/
+/*    background: #ffffff;*/
+/*    margin-bottom: 10px;*/
+/*    border-radius: 50px;*/
+/*}*/
+/*.mini__line{*/
+/*    width: 440px;*/
+/*    height: 6px;*/
+/*    border-radius: 50px;*/
+/*    background: linear-gradient(94.78deg, #DF5950 11.19%, #451046 93.72%);*/
+/*}*/

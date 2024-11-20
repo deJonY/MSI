@@ -1,38 +1,88 @@
-.App {
-  text-align: center;
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.App{
+    background: url("img/bgc.png");
+    background-size: 100% 100%;
+    margin: 0;
+    padding: 0;
+}
+::-webkit-scrollbar{
+    width: 16px;
+    background: black;
+}
+::-webkit-scrollbar-thumb{
+    border: 5px solid black;
+    border-radius: 50px;
+    background: linear-gradient(94.78deg, #DF5950 11.19%, #451046 93.72%);
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
+.zakazat__kurs{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+    background: #121212;
+    /*margin-top: 280px;*/
+    padding: 35px 0;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.zakazatBtn{
+    width: 169px;
+    height: 44px;
+    border: none;
+    border-radius: 50px;
+    background: linear-gradient(94.78deg, #DF5950 11.19%, #451046 93.72%);
 }
-
-.App-link {
-  color: #61dafb;
+.zakazatBtnLink{
+    font-family: "Roboto", sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 24px;
+    color: white;
+    text-decoration: none;
 }
+.students__number{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+    width: 260px;
+    margin: 0 auto;
+}
+.student, .std_num, .end__courses, .courses_num{
+    font-family: "Roboto", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    color: #ffffff;
+}
+.student, .end__courses, .w_text, .zero, .mln{
+    color: gray;
+}
+.work__text, .line__numbers{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.price{
+    font-family: "Roboto", sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 24px;
+    color: white;
+}
+.big__line{
+    width: 714px;
+    height: 6px;
+    background: #ffffff;
+    margin-bottom: 10px;
+    border-radius: 50px;
+}
+.mini__line{
+    width: 440px;
+    height: 6px;
+    border-radius: 50px;
+    background: linear-gradient(94.78deg, #DF5950 11.19%, #451046 93.72%);
 }

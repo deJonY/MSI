@@ -1,0 +1,125 @@
+.center__icon{
+    margin: 0 auto 80px;
+    text-align: center;
+}
+.S3__Title{
+    font-family: "Roboto", sans-serif;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 67.2px;
+    text-align: center;
+    color: #ffffff;
+}
+.S3__Text{
+    font-family: "Roboto", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 25px;
+    text-align: center;
+    color: grey;
+    width: 400px;
+    margin: 0 auto 80px;
+}
+.text-lines{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    margin-bottom: 100px;
+}
+.center-line{
+    background: linear-gradient(94.26deg, #C89AFC 9.51%, #7C6AFA 90.23%);
+    width: 6px;
+    height: 720px;
+    margin: 0 0 110px;
+}
+.text__line__texts{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+.text__line__title{
+    font-family: "Roboto", sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 22px;
+    color: grey;
+}
+.text__line__text{
+    font-family: "Roboto", sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 28px;
+    color: #ffffff;
+    width: 260px;
+    margin: 0;
+}
+.text__side1{
+    text-align: right;
+}
+.text__side2{
+    text-align: left;
+}
+.margin-top{
+    margin-top: 100px;
+}
+.margin-bottom{
+    margin-bottom: 100px;
+}
+
+.logo-title{
+    display: flex;
+    align-items: start;
+    gap: 35px;
+    margin-bottom: 110px;
+}
+.S3__Title1{
+    font-family: "Roboto", sans-serif;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 67px;
+    color: #ffffff;
+}
+.profile{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+    margin-bottom: 200px;
+}
+.user{
+    text-align: center;
+}
+.user__name{
+    font-family: "Roboto", sans-serif;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 33px;
+    text-align: center;
+    color: #ffffff;
+    margin: 40px auto 15px;
+}
+.user__position{
+    font-family: "Roboto", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 25px;
+    text-align: center;
+    color: grey;
+    margin: 0 auto 30px;
+}
+.about__user{
+    width: 140px;
+    height: 45px;
+    border-radius: 50px;
+    border: 1px solid #ffffff;
+    background-color: transparent;
+}
+.about__user__link{
+    font-family: "Roboto", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    color: #ffffff;
+    text-decoration: none;
+}
